@@ -1,0 +1,6 @@
+version: '3'
+services:
+  weblogic:
+    build: .
+    ports:
+      - "127.0.0.1:7001:7001"
